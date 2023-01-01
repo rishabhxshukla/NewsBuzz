@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightblue;
+}
+/*-------------------------------------*/
+
+
+/* ALL NEWS CONTAINER */
+.allNews {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    margin: 20px 0;
+}
+/*-------------------------------------*/
+
+
+@media screen and (max-width: 600px) 
+{
+    .allNews {
+        gap: 10px;
+    }    
+}
